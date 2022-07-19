@@ -24,20 +24,4 @@ def random_guess():
   else:
     print("You Scored {} ( ͡°Ĺ̯ ͡° )".format(score))
     
-random_guess()  
-
-'''
-while True:
-    try:
-        user_num = 0
-        while user_num > 0 and user_num < 6:  
-          user_num = int(input("Pick a num btwn 1-5: "))
-          print("Play Game")
-        
-          
-    except ValueError:
-        print("This is an unaccepted response, enter a valid value")
-        continue
-    else:
-        break
-'''
+random_guess()
