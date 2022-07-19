@@ -6,8 +6,8 @@ def random_guess():
   score = 0
   
   while rounds != 0:
-    random_num = random.randint(1, 5)
-    user_num = input("Pick your lucky number between 1 and 5: \n")
+    random_num = random.randint(1, 10)
+    user_num = input("Pick your lucky number between 1 and 10: \n")
     user_num = int(user_num)
     
     if user_num == random_num:
