@@ -1,3 +1,4 @@
+#This program allows the user to pick a number between 1-10 and adds a score of 1 for every right guess then displays the final score
 import random
 
 def random_guess():
